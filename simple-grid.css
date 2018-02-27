@@ -12,6 +12,11 @@
     padding: 0;
 }
 
+html {
+    /*font-size: 62.5%;  !* 1rem = 10px *! */
+    font-size: 125%;    /* 1rem = 20px */
+}
+
 .container-big, .container-med, .container-full {
     margin: 0 auto;
     max-width: 100%;
@@ -39,6 +44,10 @@
 .xs__col-2 {
     width: calc(1/2 * 100%);
     margin: 0 auto;
+}
+
+.column {
+    flex-direction: column;
 }
 
 @media (min-width: 576px) {
