@@ -46,13 +46,13 @@ h1 {
     width: 100%;
 }
 
-.col-1 {
-    width: 100%;
+.xs__1-1 {
+    width: calc(12/12 * 100%);
     margin: 0 auto;
 }
 
-.xs__col-2 {
-    width: calc(1/2 * 100%);
+.xs__1-2 {
+    width: calc(6/12 * 100%);
     margin: 0 auto;
 }
 
@@ -61,52 +61,67 @@ h1 {
 }
 
 @media (min-width: 576px) {
-    .s__col-4 {
-        width: calc(1/4 * 100%);
+    .s__1-4 {
+        width: calc(3/12 * 100%);
         margin: 0 auto;
     }
 
-    .s__col-3 {
-        width: calc(1/3 * 100%);
+    .s__1-3 {
+        width: calc(4/12 * 100%);
         margin: 0 auto;
     }
 
-    .s__col-2 {
-        width: calc(1/2 * 100%);
+    .s__2-3 {
+        width: calc(8/12 * 100%);
+        margin: 0 auto;
+    }
+
+    .s__1-2 {
+        width: calc(6/12 * 100%);
         margin: 0 auto;
     }
 }
 
 @media (min-width: 768px) {
-    .m__col-4 {
-        width: calc(1/4 * 100%);
+    .m__1-4 {
+        width: calc(3/12 * 100%);
         margin: 0 auto;
     }
 
-    .m__col-3 {
-        width: calc(1/3 * 100%);
+    .m__1-3 {
+        width: calc(4/12 * 100%);
         margin: 0 auto;
     }
 
-    .m__col-2 {
-        width: calc(1/2 * 100%);
+    .m__2-3 {
+        width: calc(8/12 * 100%);
+        margin: 0 auto;
+    }
+
+    .m__1-2 {
+        width: calc(6/12 * 100%);
         margin: 0 auto;
     }
 }
 
 @media (min-width: 992px) {
-    .l__col-4 {
-        width: calc(1/4 * 100%);
+    .l__1-4 {
+        width: calc(3/12 * 100%);
         margin: 0 auto;
     }
 
-    .l__col-3 {
-        width: calc(1/3 * 100%);
+    .l__1-3 {
+        width: calc(4/12 * 100%);
         margin: 0 auto;
     }
 
-    .l__col-2 {
-        width: calc(1/2 * 100%);
+    .l__2-3 {
+        width: calc(8/12 * 100%);
+        margin: 0 auto;
+    }
+
+    .l__1-2 {
+        width: calc(6/12 * 100%);
         margin: 0 auto;
     }
 }
