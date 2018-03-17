@@ -1,6 +1,6 @@
 /*
 *** Simple-Grid-System
-*** ver. 1.5.3
+*** ver. 1.5.4
 *** (C) LeonSzewski 2018
 */
 
@@ -27,7 +27,7 @@ h1 {
     font-size: 2rem;
 }
 
-.box-big, .box-med, .box-full, .box {
+.grid-big-box, .grid-med-box, .grid-full-box, .grid-box {
     margin: 0 auto;
     max-width: 100%;
     display: flex;
@@ -35,24 +35,24 @@ h1 {
     align-content: start;
 }
 
-.box-big {
+.grid-big-box {
     width: 1180px;
 }
 
-.box-med {
+.grid-med-box {
     width: 980px;
 }
 
-.box-full {
+.grid-full-box {
     width: 100%;
 }
 
-.xs_1-1 {
+.grid_1-1 {
     width: calc(12/12 * 100%);
     margin: 0 auto;
 }
 
-.xs_1-2 {
+.grid_1-2 {
     width: calc(6/12 * 100%);
     margin: 0 auto;
 }
@@ -62,66 +62,66 @@ h1 {
 }
 
 @media (min-width: 576px) {
-    .s_1-4 {
+    .grid_1-4_s {
         width: calc(3/12 * 100%);
         margin: 0 auto;
     }
 
-    .s_1-3 {
+    .grid_1-3_s {
         width: calc(4/12 * 100%);
         margin: 0 auto;
     }
 
-    .s_2-3 {
+    .grid_2-3_s {
         width: calc(8/12 * 100%);
         margin: 0 auto;
     }
 
-    .s_1-2 {
+    .grid_1-2_s {
         width: calc(6/12 * 100%);
         margin: 0 auto;
     }
 }
 
 @media (min-width: 768px) {
-    .m_1-4 {
+    .grid_1-4_m {
         width: calc(3/12 * 100%);
         margin: 0 auto;
     }
 
-    .m_1-3 {
+    .grid_1-3_m {
         width: calc(4/12 * 100%);
         margin: 0 auto;
     }
 
-    .m_2-3 {
+    .grid_2-3_m {
         width: calc(8/12 * 100%);
         margin: 0 auto;
     }
 
-    .m_1-2 {
+    .grid_1-2_m {
         width: calc(6/12 * 100%);
         margin: 0 auto;
     }
 }
 
 @media (min-width: 992px) {
-    .l_1-4 {
+    .grid_1-4_l {
         width: calc(3/12 * 100%);
         margin: 0 auto;
     }
 
-    .l_1-3 {
+    .grid_1-3_l {
         width: calc(4/12 * 100%);
         margin: 0 auto;
     }
 
-    .l_2-3 {
+    .grid_2-3_l {
         width: calc(8/12 * 100%);
         margin: 0 auto;
     }
 
-    .l_1-2 {
+    .grid_1-2_l {
         width: calc(6/12 * 100%);
         margin: 0 auto;
     }
