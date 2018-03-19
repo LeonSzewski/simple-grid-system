@@ -67,6 +67,12 @@ h1 {
         margin: 0 auto;
     }
 
+    .grid_3-4_s {
+        width: calc(9/12 * 100%);
+        margin: 0 auto;
+    }
+
+
     .grid_1-3_s {
         width: calc(4/12 * 100%);
         margin: 0 auto;
@@ -89,6 +95,12 @@ h1 {
         margin: 0 auto;
     }
 
+    .grid_3-4_m {
+        width: calc(9/12 * 100%);
+        margin: 0 auto;
+    }
+
+
     .grid_1-3_m {
         width: calc(4/12 * 100%);
         margin: 0 auto;
@@ -108,6 +120,11 @@ h1 {
 @media (min-width: 992px) {
     .grid_1-4_l {
         width: calc(3/12 * 100%);
+        margin: 0 auto;
+    }
+
+    .grid_3-4_l {
+        width: calc(9/12 * 100%);
         margin: 0 auto;
     }
 
